@@ -1,0 +1,5 @@
+To set the Kry run below command
+
+"ssh-keygen -t rsa -b 4096"
+
+choose the current path to save key file
