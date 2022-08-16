@@ -1,5 +1,5 @@
 resource "aws_instance" "my-first-instance" {
-  ami                         = "ami-08d4ac5b634553e16"
+  ami                         = data.aws_ami.ubuntu.id
   instance_type               = var.instance_type
   key_name                    = aws_key_pair.mykey.key_name
   security_groups             = [var.security_group]
