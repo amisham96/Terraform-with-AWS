@@ -8,7 +8,7 @@ variable "secret_key" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "dockmykeyer"
+  default     = "mykey"
 }
 
 variable "instance_type" {
@@ -19,4 +19,10 @@ variable "instance_type" {
 variable "security_group" {
   description = "Name of security group"
   default     = "web-sg"
+}
+
+variable "security_group_port" {
+  description = "Ports of security group"
+  type        = list(number)
+  default     = [22, 8080]
 }
