@@ -1,0 +1,11 @@
+For craeting workspace run below command
+
+"terraform workspace new dev"
+"terraform workspace new prod"
+
+Switch to perticuler workspaces run below commands
+
+"terraform workspace select dev"
+"terraform workspace select prod"
+
+and run terraform plan according to switched workspace
