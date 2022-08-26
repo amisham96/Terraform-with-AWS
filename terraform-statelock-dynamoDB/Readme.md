@@ -4,7 +4,7 @@
 
    backend "s3" {
     bucket = "<Your_bucket_name>"
-    key    = "<path to create terraform state file>"
+    key    = "<path_to_create_terraform_state_file>"
     region = "<Your_region>"
     dynamodb_table = "<Your_dynamoDB_table_name>"
   }
