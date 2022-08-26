@@ -11,7 +11,7 @@
 
 4. Do terraform init with backed config by using below command
    
-   terraform init -backend-config="access_key=<your access key>" -backend-config="secret_key=<your secret key>"
+   terraform init -backend-config="access_key=<your_access_key>" -backend-config="secret_key=<your_secret_key>"
 
 5. Do terraform apply and check dynamo DB table
 
